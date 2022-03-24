@@ -419,8 +419,6 @@ label #close {
 .charts_head{
   display: flex;
  display: block;
-
- 
  margin-left: 75px;
 }
 .charts_head img{
@@ -509,6 +507,35 @@ position: absolute;
   z-index: 22;
   position: absolute;
 }
+
+
+
+
+@media screen and (max-width:800px) {
+  .charts_head h3{
+    font-size: 15px;
+  }
+
+  .phone_res{
+    display: none;
+  }
+  .charts_head select{
+    padding: 5px;
+    right: 15px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
