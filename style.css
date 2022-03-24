@@ -664,6 +664,30 @@ position: absolute;
 
 
 
+
+
+
+@media screen and (max-width:700px) {
+  
+.side_Width_donunt{
+  display: none;
+}
+
+.side_width_donut_bold{
+  display: none;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
 /* third section styles */
 
 /* third section_FristP styles */
