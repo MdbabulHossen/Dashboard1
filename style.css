@@ -107,7 +107,222 @@ table thead tr{
   padding: 10px;
   border-radius: 50%;
 }
-/*---------------Navbar Start-------------*/
+
+
+
+
+
+.user_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_logo_box {
+  background: #ffae00;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_logo_box_items {
+  position: absolute;
+  width: 200px;
+  background: white;
+  top: 60px;
+  box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+  right: 0px;
+  border-radius: 0px 0px 12px 12px;
+  visibility: hidden;
+  transform-origin: top;
+  transition: all 0.4s ease-in-out;
+  transform: scaleY(0);
+}
+
+.user_logo_box:hover .user_logo_box_items {
+  visibility: visible !important;
+  transform: scaleY(1);
+}
+
+.user_logo_box_items li {
+  list-style-type: none;
+  color: #11211d;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  color: #101d1a;
+  padding-left: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.user_logo_box_items li:hover {
+  background: #f5eeee;
+}
+.sign_out_icon {
+  margin-left: 60px;
+}
+
+/* togle item */
+
+.cammeron_toogle{
+  position: relative;
+  background: #F4F2F2;
+  border-radius: 15px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  border-radius: 50%;
+  
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* togle item */
+
+.notification .bell_icon {
+  left: -10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background: rgb(223, 217, 217);
+  padding: 5px 6px 6px 7px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  position: relative;
+}
+
+.notification_item {
+  visibility: hidden;
+  position: absolute;
+  left: -180px;
+  top: 55px;
+  padding: 20px;
+  border-radius: 0px 0px 12px 12px;
+  width: 225px;
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+  transform-origin: top;
+  transition: all 0.4s ease-in-out;
+  transform: scaleY(0);
+  overflow-y: auto;
+  height: 500px;
+}
+
+.notification .bell_icon:hover .notification_item {
+  visibility: visible;
+  transform: scaleY(1);
+}
+
+.notification_item h5 {
+  font-family: Arial;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.notification_item p {
+  color: #11211d;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.notification_item span {
+  border-bottom: 1px solid #afa9a9;
+  margin-bottom: 10px;
+  display: block;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #11211d80 !important;
+  padding-bottom: 10px;
+}
+
+.bell_icon:hover {
+  background: rgb(202, 197, 197);
+  border-radius: 50%;
+}
+
+
+
+
+
+
+/*---------------slider Start-------------*/
 
 .sidebar {
   height: 100vh;
