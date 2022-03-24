@@ -160,6 +160,10 @@ table thead tr{
   
 }
 
+.sidebar ul li a i{
+  margin-right: 10px;
+  font-size: 17px;
+}
 
 .first_angle{
   margin-left: 10px;
@@ -1081,6 +1085,60 @@ margin-top: -2px;
 font-size: 12px;
 box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer start  */
+.footer {
+  background: white;
+  padding: 5px;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_social {
+  display: flex;
+}
+.footer_social i {
+  color: #c4bebe;
+  margin-right: 8px;
+}
+
+.footer_social {
+  display: block;
+}
+
+
+/* footer end  */
+
+
+
+
+
+
+
 
 
 
