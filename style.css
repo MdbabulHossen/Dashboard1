@@ -723,7 +723,7 @@ position: absolute;
 .side_width_bold{
   color: rgb(255, 254, 254);
   margin-top: -90px;
-  z-index: 22;
+  z-index: 1;
   position: absolute;
 }
 
