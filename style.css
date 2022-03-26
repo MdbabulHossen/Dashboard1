@@ -884,7 +884,7 @@ label #close {
 /* up site */
 .third_secondSec_UpSite {
   background-color: rgb(253, 251, 251);
-  padding: 10px 1px;
+  padding: 19px 5px;
   box-sizing: border-box;
   border-radius: 5px;
   margin-top: 20px;
@@ -986,7 +986,7 @@ label #close {
   border-radius: 5px;
   margin-top: 32px;
   width: 100%;
-  min-height: 180px;
+  min-height: 160px;
 }
 
 .down_head h3 {
