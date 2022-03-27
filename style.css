@@ -587,16 +587,13 @@ label #close {
   padding-bottom: 20px;
   margin-left: 20px;
 }
-.chart8 {
-  display: flex;
-  justify-content: center;
-}
+
 
 .main-Charts {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: space-between;
+  justify-content: center;
+  align-items: center;
   margin-top: 1%;
   margin-left: 3%;
 }
@@ -649,8 +646,7 @@ label #close {
   height: 60px;
   padding: 35px;
   position: absolute;
-  margin-top: 70px;
-  margin-left: 66px;
+
   z-index: 1;
 }
 
@@ -666,8 +662,8 @@ label #close {
   border-bottom-left-radius: 100%;
   position: absolute;
   transform: rotate(36deg);
-  margin-left: -40px;
-  margin-top: 63px;
+  margin-left: -170px;
+  margin-top: 38px;
 }
 
 .side_width_bold {
@@ -709,7 +705,7 @@ label #close {
   font-family: Arial;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Inter";
 }
 .select {
