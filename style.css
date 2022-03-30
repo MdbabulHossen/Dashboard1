@@ -365,9 +365,9 @@ input:checked + .slider:before {
 .sidebar_logo {
   background: white;
   position: fixed;
-  margin-bottom: 15px;
-  border-bottom: 1px solid rgb(153, 150, 150);
-  margin-left: 5px;
+ 
+  width: 224px;
+ 
 }
 
 .sidebar_logo img {
@@ -378,16 +378,18 @@ input:checked + .slider:before {
 
 .sidebar_ul li {
   position: relative;
+  margin-left: 10px;
 }
 
 .sidebar_ul li .sidebar_black_icons {
-  margin-left: 10px;
+
   margin-right: 10px;
 }
 
+
 .sidebar_white_icons {
   display: none;
-  margin-left: 10px;
+ 
   margin-right: 10px;
 }
 
@@ -491,6 +493,8 @@ label #close {
 
 .sidebar li:hover {
   background: #5160ac;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 
@@ -670,7 +674,8 @@ label #close {
   color: rgb(255, 255, 255);
   z-index: 1;
   position: absolute;
-  margin-top: 103px;
+  margin-left: -175px;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 800px) {
@@ -713,14 +718,14 @@ label #close {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 17px;
   text-align: center;
   color: #11211d;
   cursor: pointer;
 }
 .select select {
-  padding: 5px 5px;
+  padding:6px;
   border: 1px solid rgba(0, 0, 0, 0.116);
   outline: none;
   border-radius: 5px;
@@ -735,14 +740,14 @@ label #close {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 17px;
   text-align: center;
   background: #ffffff;
   border: 1px solid #ececf2;
   box-sizing: border-box;
   border-radius: 8px;
-  padding: 10px 9px;
+  padding: 9px;
   cursor: pointer;
   margin-left: 3px;
 }
@@ -812,11 +817,12 @@ label #close {
   border-left: 40px solid rgba(255, 0, 0, 0);
   border-top-left-radius: 200px;
 
-  position: absolute;
-  margin-top: -105px;
-  margin-left: 210px;
-  transform: rotate(-96deg);
+
+  margin-top: -108px;
+  margin-left: 200px;
+  transform: rotate(-102deg);
   z-index: 2;
+  position: absolute;
 }
 
 .side_width_donut_bold {
@@ -825,7 +831,7 @@ label #close {
   font-size: 14px;
   position: absolute;
   margin-top: -100px;
-  margin-left: 240px;
+  margin-left: 230px;
 }
 
 @media screen and (max-width: 700px) {
@@ -1168,6 +1174,38 @@ label #close {
   font-size: 12px;
   box-sizing: border-box;
 }
+
+
+
+
+
+
+.four_sec_third_down{
+  background-color: white;
+  padding-top: 5px;
+  padding-right: 5px;
+  min-height: 200px;
+}
+.four_sec_third_down b{
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 600;
+ 
+}
+.four_sec_third_down table thead tr th{
+  font-size: 13px;
+  font-family: 'Inter';
+
+}
+
+
+.four_sec_third_down table tbody tr td{
+  font-size:12px;
+}
+
+
+
+
 
 /* footer start  */
 .footer {
