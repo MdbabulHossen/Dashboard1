@@ -499,7 +499,7 @@ label #close {
 
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1220px) {
   .sidebar {
     left: -500px;
   }
@@ -576,7 +576,12 @@ label #close {
   margin-left: 240px;
   margin-top: 90px;
 }
-@media screen and (max-width: 900px) {
+
+.containerr{
+  margin: 30px;
+}
+
+@media screen and (max-width: 1220px) {
   .main-body {
     margin-left: 0px;
   }
@@ -692,6 +697,15 @@ label #close {
   }
 }
 
+
+
+
+
+
+
+
+
+
 /* second section styles */
 .second_chart {
   background-color: rgb(253, 251, 251);
@@ -797,6 +811,7 @@ label #close {
   font-size: 21px;
   font-weight: 700;
   font-family: "Inter";
+  
 }
 .donunt_chart {
   background-color: white;
@@ -804,23 +819,19 @@ label #close {
   padding-top: 10px;
   padding-left: 9px;
   border-radius: 8px;
-  position: relative;
+
 }
 
 .side_Width_donunt {
-  width: 20px;
-  height: 20px;
-
-  padding: 24px;
-
+  width: 28px;
+  height: 36px;
+  padding: 22px;
   border-top: 40px solid rgb(16, 150, 24);
   border-left: 40px solid rgba(255, 0, 0, 0);
   border-top-left-radius: 200px;
-
-
-  margin-top: -108px;
-  margin-left: 200px;
-  transform: rotate(-102deg);
+  margin-left: 123px;
+  margin-top: -127px;
+  transform: rotate(-100deg);
   z-index: 2;
   position: absolute;
 }
@@ -830,17 +841,17 @@ label #close {
   z-index: 333;
   font-size: 14px;
   position: absolute;
-  margin-top: -100px;
-  margin-left: 230px;
+  margin-top: -114px;
+  margin-left: 140px;
 }
 
-@media screen and (max-width: 700px) {
-  .side_Width_donunt {
-    display: none;
-  }
 
-  .side_width_donut_bold {
-    display: none;
+@media screen and (max-width:1200) {
+  .second_chart{
+    width: 100%;
+  }
+  .donunt_chart{
+    width: 100%;
   }
 }
 
@@ -995,7 +1006,7 @@ label #close {
   border-radius: 5px;
   margin-top: 32px;
   width: 100%;
-  min-height: 160px;
+  min-height: 170px;
 }
 
 .down_head h3 {
@@ -1154,6 +1165,18 @@ label #close {
   }
 }
 
+
+@media screen and (max-width:1200px) {
+  .third_sec_thirdPart{
+    padding: 12px;
+  }
+  
+}
+
+
+
+
+
 /* four_sec_upPart/down part*/
 .four_sec_secondPart_up {
   background-color: white;
@@ -1241,6 +1264,41 @@ label #close {
 
 /* for responsive */
 
+
+
+@media screen and (max-width:1200px) {
+  .third_sec_thirdPart {
+  
+  min-height: 490px;
+  
+  }
+  .third_sec_FristP{
+    min-height: 490px;
+  }
+  .third_sec_Down {
+  min-height: 200px;
+  }
+
+  
+
+
+.third_secondSec_UpSite table thead tr th{
+  font-size: 9px;
+}
+.four_sec_third_down table thead tr th{
+  font-size: 11px;
+  font-weight: 700;
+}
+.containerr{
+  margin: 15px;
+}
+}
+
+
+
+
+
+
 @media screen and (max-width:1320px) {
   .footer_wrapper{
     display: block;
@@ -1321,6 +1379,10 @@ label #close {
 
 }
 
+@media screen and (min-width:700px) {
 
+
+  
+}
 
 /* dashboard charts styles end */
