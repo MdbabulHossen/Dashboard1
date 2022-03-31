@@ -724,25 +724,25 @@ label #close {
   font-family: Arial;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "Inter";
 }
+.select select {
+  padding: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  outline: none;
+  border-radius: 5px;
+}
 .select {
-  margin-left: 5px;
+  margin-left: 1px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 17px;
+  /* line-height: 3px; */
   text-align: center;
   color: #11211d;
   cursor: pointer;
-}
-.select select {
-  padding:6px;
-  border: 1px solid rgba(0, 0, 0, 0.116);
-  outline: none;
-  border-radius: 5px;
 }
 
 .btn-div {
@@ -755,7 +755,7 @@ label #close {
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 17px;
+  line-height: 8px;
   text-align: center;
   background: #ffffff;
   border: 1px solid #ececf2;
@@ -763,7 +763,7 @@ label #close {
   border-radius: 8px;
   padding: 9px;
   cursor: pointer;
-  margin-left: 3px;
+  margin-left: 1px;
 }
 
 .btn-div button img {
