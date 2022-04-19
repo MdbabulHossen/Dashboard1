@@ -609,26 +609,22 @@ label #close {
   color: red;
 }
 
-.middleOfCharts{
- 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  z-index: 1;
-  background-color: rgb(235, 235, 235);
+.sidebar ul li a {
+  color: #FFFFFF;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 45px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 20px;
+  
 }
-
-
-#middleIcon{
+.iconify{
   font-size: 23px;
-  margin-top: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  top: 30px;  
+  line-height: 4px;
+  margin-bottom: -5px;
 }
 
 
