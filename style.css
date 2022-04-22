@@ -346,6 +346,7 @@ input:checked + .slider:before {
 .sidebar_ul li {
   position: relative;
   margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 
@@ -470,7 +471,33 @@ label #close {
   background: #5160ac;
   border-radius: 10px;
   margin-left: 10px;
+  
 }
+
+/* Style the active class, and buttons on mouse-over */
+.active {
+  background: #5160ac;
+  color: rgb(255, 255, 255);
+ border-radius: 10px;
+} 
+
+.active::after{
+  content: "";
+  height: 20px;
+  width: 2px;
+  background: #ffffff;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border-radius: 5px;
+}
+
+.active a{
+  color: #ffffff!important
+}
+
+
+
 
 @media screen and (max-width: 1220px) {
   .sidebar {
